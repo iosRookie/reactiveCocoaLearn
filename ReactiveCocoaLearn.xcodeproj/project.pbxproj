@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C6EA856B1B1C5C4700D81670 /* CatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EA85681B1C5C4700D81670 /* CatalogViewController.m */; };
-		C6EA856C1B1C5C4700D81670 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EA856A1B1C5C4700D81670 /* CustomCell.m */; };
+		C605C3911B259479001DE3F0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C605C3901B259479001DE3F0 /* MainViewController.m */; };
+		C605C3981B25AC39001DE3F0 /* TitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C605C3971B25AC39001DE3F0 /* TitleCell.m */; };
 		C6EC241D1B0F1F1500AC2B45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EC241C1B0F1F1500AC2B45 /* main.m */; };
 		C6EC24201B0F1F1500AC2B45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EC241F1B0F1F1500AC2B45 /* AppDelegate.m */; };
-		C6EC24231B0F1F1500AC2B45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EC24221B0F1F1500AC2B45 /* ViewController.m */; };
-		C6EC24261B0F1F1500AC2B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6EC24241B0F1F1500AC2B45 /* Main.storyboard */; };
 		C6EC24281B0F1F1500AC2B45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6EC24271B0F1F1500AC2B45 /* Images.xcassets */; };
 		C6EC242B1B0F1F1500AC2B45 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6EC24291B0F1F1500AC2B45 /* LaunchScreen.xib */; };
 		C6EC24371B0F1F1500AC2B45 /* ReactiveCocoaLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EC24361B0F1F1500AC2B45 /* ReactiveCocoaLearnTests.m */; };
@@ -32,18 +30,15 @@
 /* Begin PBXFileReference section */
 		2A7D187BBEF142D5065D7212 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4894A3BA14C36A35FBBFEF57 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6EA85671B1C5C4700D81670 /* CatalogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogViewController.h; sourceTree = "<group>"; };
-		C6EA85681B1C5C4700D81670 /* CatalogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogViewController.m; sourceTree = "<group>"; };
-		C6EA85691B1C5C4700D81670 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
-		C6EA856A1B1C5C4700D81670 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		C605C38F1B259479001DE3F0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C605C3901B259479001DE3F0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C605C3961B25AC39001DE3F0 /* TitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleCell.h; sourceTree = "<group>"; };
+		C605C3971B25AC39001DE3F0 /* TitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleCell.m; sourceTree = "<group>"; };
 		C6EC24171B0F1F1500AC2B45 /* ReactiveCocoaLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveCocoaLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6EC241B1B0F1F1500AC2B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6EC241C1B0F1F1500AC2B45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6EC241E1B0F1F1500AC2B45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C6EC241F1B0F1F1500AC2B45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C6EC24211B0F1F1500AC2B45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C6EC24221B0F1F1500AC2B45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C6EC24251B0F1F1500AC2B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6EC24271B0F1F1500AC2B45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C6EC242A1B0F1F1500AC2B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C6EC24301B0F1F1500AC2B45 /* ReactiveCocoaLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveCocoaLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +83,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C605C3951B25ABF7001DE3F0 /* NIcell */ = {
+			isa = PBXGroup;
+			children = (
+				C605C3961B25AC39001DE3F0 /* TitleCell.h */,
+				C605C3971B25AC39001DE3F0 /* TitleCell.m */,
+			);
+			name = NIcell;
+			sourceTree = "<group>";
+		};
 		C6EC240E1B0F1F1500AC2B45 = {
 			isa = PBXGroup;
 			children = (
@@ -113,13 +117,9 @@
 			children = (
 				C6EC241E1B0F1F1500AC2B45 /* AppDelegate.h */,
 				C6EC241F1B0F1F1500AC2B45 /* AppDelegate.m */,
-				C6EA85671B1C5C4700D81670 /* CatalogViewController.h */,
-				C6EA85681B1C5C4700D81670 /* CatalogViewController.m */,
-				C6EA85691B1C5C4700D81670 /* CustomCell.h */,
-				C6EA856A1B1C5C4700D81670 /* CustomCell.m */,
-				C6EC24211B0F1F1500AC2B45 /* ViewController.h */,
-				C6EC24221B0F1F1500AC2B45 /* ViewController.m */,
-				C6EC24241B0F1F1500AC2B45 /* Main.storyboard */,
+				C605C38F1B259479001DE3F0 /* MainViewController.h */,
+				C605C3901B259479001DE3F0 /* MainViewController.m */,
+				C605C3951B25ABF7001DE3F0 /* NIcell */,
 				C6EC24271B0F1F1500AC2B45 /* Images.xcassets */,
 				C6EC24291B0F1F1500AC2B45 /* LaunchScreen.xib */,
 				C6EC241A1B0F1F1500AC2B45 /* Supporting Files */,
@@ -235,7 +235,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6EC24261B0F1F1500AC2B45 /* Main.storyboard in Resources */,
 				C6EC242B1B0F1F1500AC2B45 /* LaunchScreen.xib in Resources */,
 				C6EC24281B0F1F1500AC2B45 /* Images.xcassets in Resources */,
 			);
@@ -288,11 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6EA856B1B1C5C4700D81670 /* CatalogViewController.m in Sources */,
-				C6EC24231B0F1F1500AC2B45 /* ViewController.m in Sources */,
 				C6EC24201B0F1F1500AC2B45 /* AppDelegate.m in Sources */,
+				C605C3981B25AC39001DE3F0 /* TitleCell.m in Sources */,
+				C605C3911B259479001DE3F0 /* MainViewController.m in Sources */,
 				C6EC241D1B0F1F1500AC2B45 /* main.m in Sources */,
-				C6EA856C1B1C5C4700D81670 /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C6EC24241B0F1F1500AC2B45 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6EC24251B0F1F1500AC2B45 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C6EC24291B0F1F1500AC2B45 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

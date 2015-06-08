@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "CatalogViewController.h"
+#import "MainViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,10 +20,10 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    CatalogViewController* catalogController = [[CatalogViewController alloc] init];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:catalogController];
+    MainViewController* mainViewController = [[MainViewController alloc] init];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
     [self.window makeKeyAndVisible];
-    return YES;
+
     return YES;
 }
 
