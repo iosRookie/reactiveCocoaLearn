@@ -5,6 +5,7 @@ tmp
 dump
 .DS_Store
 .tmp/
+.xcuserstate
 
 # Exclude project meta files
 .project
