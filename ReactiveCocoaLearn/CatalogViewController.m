@@ -66,11 +66,7 @@
         CustomCellUserData *data2 = cellobject.userInfo;
         data2.titleStr = @"456";
         data2.buttonStr = @"but2";
-        NIActionBlock dbBlock = ^(id object, id target, NSIndexPath *indexPath) {
-            
-            return YES;
-        };
-        
+
         _model = [[NITableViewModel alloc] initWithSectionedArray:contents
                                                          delegate:(id)[NICellFactory class]];
     }
