@@ -5,7 +5,7 @@ tmp
 dump
 .DS_Store
 .tmp/
-.xcuserstate
+*.xcuserstate
 
 # Exclude project meta files
 .project
@@ -31,6 +31,6 @@ build/*
 *.perspectivev3
 *.pbxuser
 *.xcworkspace
-xcuserdata
+*.xcworkspace/xcuserdata/
 *.xcodeproj/ !*.xcodeproj/project.pbxproj
 
