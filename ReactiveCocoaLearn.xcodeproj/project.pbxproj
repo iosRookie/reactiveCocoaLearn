@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C6EA856B1B1C5C4700D81670 /* CatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EA85681B1C5C4700D81670 /* CatalogViewController.m */; };
-		C6EA856C1B1C5C4700D81670 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EA856A1B1C5C4700D81670 /* CustomCell.m */; };
+		2F2AC8787CD5F3B74C13066F /* libPods-ReactiveCocoaLearnTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 002ED375239560169FB02D57 /* libPods-ReactiveCocoaLearnTests.a */; };
+		BE9C830F8004C77BFB1383BC /* libPods-ReactiveCocoaLearn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB046E291DF7A680D9D628A /* libPods-ReactiveCocoaLearn.a */; };
 		C6EC241D1B0F1F1500AC2B45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EC241C1B0F1F1500AC2B45 /* main.m */; };
 		C6EC24201B0F1F1500AC2B45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EC241F1B0F1F1500AC2B45 /* AppDelegate.m */; };
 		C6EC24231B0F1F1500AC2B45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EC24221B0F1F1500AC2B45 /* ViewController.m */; };
@@ -16,7 +16,6 @@
 		C6EC24281B0F1F1500AC2B45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6EC24271B0F1F1500AC2B45 /* Images.xcassets */; };
 		C6EC242B1B0F1F1500AC2B45 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6EC24291B0F1F1500AC2B45 /* LaunchScreen.xib */; };
 		C6EC24371B0F1F1500AC2B45 /* ReactiveCocoaLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EC24361B0F1F1500AC2B45 /* ReactiveCocoaLearnTests.m */; };
-		F2392F508372121E550C8F2E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4894A3BA14C36A35FBBFEF57 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A7D187BBEF142D5065D7212 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		4894A3BA14C36A35FBBFEF57 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6EA85671B1C5C4700D81670 /* CatalogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogViewController.h; sourceTree = "<group>"; };
-		C6EA85681B1C5C4700D81670 /* CatalogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogViewController.m; sourceTree = "<group>"; };
-		C6EA85691B1C5C4700D81670 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
-		C6EA856A1B1C5C4700D81670 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		002ED375239560169FB02D57 /* libPods-ReactiveCocoaLearnTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveCocoaLearnTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21156461C11BBD5F9DC4426F /* Pods-ReactiveCocoaLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaLearn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaLearn/Pods-ReactiveCocoaLearn.debug.xcconfig"; sourceTree = "<group>"; };
+		77E6BAE195B36EF8BB0F6CD4 /* Pods-ReactiveCocoaLearnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaLearnTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaLearnTests/Pods-ReactiveCocoaLearnTests.release.xcconfig"; sourceTree = "<group>"; };
+		78A2AC7DF9C525A1E77C8328 /* Pods-ReactiveCocoaLearnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaLearnTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaLearnTests/Pods-ReactiveCocoaLearnTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85C52083EDCCA502703D6CC0 /* Pods-ReactiveCocoaLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaLearn.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaLearn/Pods-ReactiveCocoaLearn.release.xcconfig"; sourceTree = "<group>"; };
+		9AB046E291DF7A680D9D628A /* libPods-ReactiveCocoaLearn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveCocoaLearn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6EC24171B0F1F1500AC2B45 /* ReactiveCocoaLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveCocoaLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6EC241B1B0F1F1500AC2B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6EC241C1B0F1F1500AC2B45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,7 +48,6 @@
 		C6EC24301B0F1F1500AC2B45 /* ReactiveCocoaLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveCocoaLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6EC24351B0F1F1500AC2B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6EC24361B0F1F1500AC2B45 /* ReactiveCocoaLearnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaLearnTests.m; sourceTree = "<group>"; };
-		CBE6B503E892C675076DF00D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2392F508372121E550C8F2E /* libPods.a in Frameworks */,
+				BE9C830F8004C77BFB1383BC /* libPods-ReactiveCocoaLearn.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,37 +63,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F2AC8787CD5F3B74C13066F /* libPods-ReactiveCocoaLearnTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7C468243EFE726C779A01608 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4894A3BA14C36A35FBBFEF57 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9DC0EFA16F078E9122A47AD5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CBE6B503E892C675076DF00D /* Pods.debug.xcconfig */,
-				2A7D187BBEF142D5065D7212 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		C6EC240E1B0F1F1500AC2B45 = {
 			isa = PBXGroup;
 			children = (
 				C6EC24191B0F1F1500AC2B45 /* ReactiveCocoaLearn */,
 				C6EC24331B0F1F1500AC2B45 /* ReactiveCocoaLearnTests */,
 				C6EC24181B0F1F1500AC2B45 /* Products */,
-				9DC0EFA16F078E9122A47AD5 /* Pods */,
-				7C468243EFE726C779A01608 /* Frameworks */,
+				F246361F031241CBF09F1E70 /* Pods */,
+				F3359DFDD5D7C187FF31F32C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,10 +95,6 @@
 			children = (
 				C6EC241E1B0F1F1500AC2B45 /* AppDelegate.h */,
 				C6EC241F1B0F1F1500AC2B45 /* AppDelegate.m */,
-				C6EA85671B1C5C4700D81670 /* CatalogViewController.h */,
-				C6EA85681B1C5C4700D81670 /* CatalogViewController.m */,
-				C6EA85691B1C5C4700D81670 /* CustomCell.h */,
-				C6EA856A1B1C5C4700D81670 /* CustomCell.m */,
 				C6EC24211B0F1F1500AC2B45 /* ViewController.h */,
 				C6EC24221B0F1F1500AC2B45 /* ViewController.m */,
 				C6EC24241B0F1F1500AC2B45 /* Main.storyboard */,
@@ -153,6 +131,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F246361F031241CBF09F1E70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21156461C11BBD5F9DC4426F /* Pods-ReactiveCocoaLearn.debug.xcconfig */,
+				85C52083EDCCA502703D6CC0 /* Pods-ReactiveCocoaLearn.release.xcconfig */,
+				78A2AC7DF9C525A1E77C8328 /* Pods-ReactiveCocoaLearnTests.debug.xcconfig */,
+				77E6BAE195B36EF8BB0F6CD4 /* Pods-ReactiveCocoaLearnTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3359DFDD5D7C187FF31F32C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AB046E291DF7A680D9D628A /* libPods-ReactiveCocoaLearn.a */,
+				002ED375239560169FB02D57 /* libPods-ReactiveCocoaLearnTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,11 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6EC243A1B0F1F1500AC2B45 /* Build configuration list for PBXNativeTarget "ReactiveCocoaLearn" */;
 			buildPhases = (
-				5532AAFCB66205702B7EA112 /* Check Pods Manifest.lock */,
+				91628BBEBB8909E195600D51 /* [CP] Check Pods Manifest.lock */,
 				C6EC24131B0F1F1500AC2B45 /* Sources */,
 				C6EC24141B0F1F1500AC2B45 /* Frameworks */,
 				C6EC24151B0F1F1500AC2B45 /* Resources */,
-				2672E337519D9772C63567F8 /* Copy Pods Resources */,
+				32983A05A63134F9C94352C8 /* [CP] Embed Pods Frameworks */,
+				5FCB80B8C93E59C28AE2F80C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6EC243D1B0F1F1500AC2B45 /* Build configuration list for PBXNativeTarget "ReactiveCocoaLearnTests" */;
 			buildPhases = (
+				EEADC0880ED451B314A1D6B7 /* [CP] Check Pods Manifest.lock */,
 				C6EC242C1B0F1F1500AC2B45 /* Sources */,
 				C6EC242D1B0F1F1500AC2B45 /* Frameworks */,
 				C6EC242E1B0F1F1500AC2B45 /* Resources */,
+				AEBCB6880A36C56A71248855 /* [CP] Embed Pods Frameworks */,
+				3B986738F14F04FC385E6C0D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,6 +206,8 @@
 				TargetAttributes = {
 					C6EC24161B0F1F1500AC2B45 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = DC3DP2UZ7D;
+						ProvisioningStyle = Manual;
 					};
 					C6EC242F1B0F1F1500AC2B45 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -251,34 +255,94 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2672E337519D9772C63567F8 /* Copy Pods Resources */ = {
+		32983A05A63134F9C94352C8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaLearn/Pods-ReactiveCocoaLearn-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5532AAFCB66205702B7EA112 /* Check Pods Manifest.lock */ = {
+		3B986738F14F04FC385E6C0D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaLearnTests/Pods-ReactiveCocoaLearnTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FCB80B8C93E59C28AE2F80C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaLearn/Pods-ReactiveCocoaLearn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91628BBEBB8909E195600D51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AEBCB6880A36C56A71248855 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaLearnTests/Pods-ReactiveCocoaLearnTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEADC0880ED451B314A1D6B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -288,11 +352,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6EA856B1B1C5C4700D81670 /* CatalogViewController.m in Sources */,
 				C6EC24231B0F1F1500AC2B45 /* ViewController.m in Sources */,
 				C6EC24201B0F1F1500AC2B45 /* AppDelegate.m in Sources */,
 				C6EC241D1B0F1F1500AC2B45 /* main.m in Sources */,
-				C6EA856C1B1C5C4700D81670 /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,28 +478,34 @@
 		};
 		C6EC243B1B0F1F1500AC2B45 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBE6B503E892C675076DF00D /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 21156461C11BBD5F9DC4426F /* Pods-ReactiveCocoaLearn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DC3DP2UZ7D;
 				INFOPLIST_FILE = ReactiveCocoaLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "25e65946-e949-4711-ba26-504ba2b9e680";
+				PROVISIONING_PROFILE_SPECIFIER = wanneng;
 			};
 			name = Debug;
 		};
 		C6EC243C1B0F1F1500AC2B45 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A7D187BBEF142D5065D7212 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 85C52083EDCCA502703D6CC0 /* Pods-ReactiveCocoaLearn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ReactiveCocoaLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 		C6EC243E1B0F1F1500AC2B45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78A2AC7DF9C525A1E77C8328 /* Pods-ReactiveCocoaLearnTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -457,6 +525,7 @@
 		};
 		C6EC243F1B0F1F1500AC2B45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E6BAE195B36EF8BB0F6CD4 /* Pods-ReactiveCocoaLearnTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
