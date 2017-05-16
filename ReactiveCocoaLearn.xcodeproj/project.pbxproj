@@ -481,6 +481,7 @@
 			baseConfigurationReference = 21156461C11BBD5F9DC4426F /* Pods-ReactiveCocoaLearn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				DEVELOPMENT_TEAM = DC3DP2UZ7D;
 				INFOPLIST_FILE = ReactiveCocoaLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -495,6 +496,7 @@
 			baseConfigurationReference = 85C52083EDCCA502703D6CC0 /* Pods-ReactiveCocoaLearn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ReactiveCocoaLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
