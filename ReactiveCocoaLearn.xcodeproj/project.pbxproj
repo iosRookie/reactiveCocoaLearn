@@ -17,6 +17,7 @@
 		C6EC24371B0F1F1500AC2B45 /* ReactiveCocoaLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EC24361B0F1F1500AC2B45 /* ReactiveCocoaLearnTests.m */; };
 		F0BFE4321ECAE521004CC309 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BFE4311ECAE521004CC309 /* TableViewController.m */; };
 		F0BFE4351ECAECF8004CC309 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BFE4341ECAECF8004CC309 /* DetailViewController.m */; };
+		F0BFE4381ECC1851004CC309 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BFE4371ECC1851004CC309 /* CustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F0BFE4311ECAE521004CC309 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		F0BFE4331ECAECF8004CC309 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		F0BFE4341ECAECF8004CC309 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F0BFE4361ECC1851004CC309 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		F0BFE4371ECC1851004CC309 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				F0BFE4311ECAE521004CC309 /* TableViewController.m */,
 				F0BFE4331ECAECF8004CC309 /* DetailViewController.h */,
 				F0BFE4341ECAECF8004CC309 /* DetailViewController.m */,
+				F0BFE4361ECC1851004CC309 /* CustomView.h */,
+				F0BFE4371ECC1851004CC309 /* CustomView.m */,
 				C6EC24241B0F1F1500AC2B45 /* Main.storyboard */,
 				C6EC24271B0F1F1500AC2B45 /* Images.xcassets */,
 				C6EC24291B0F1F1500AC2B45 /* LaunchScreen.xib */,
@@ -357,6 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0BFE4381ECC1851004CC309 /* CustomView.m in Sources */,
 				C6EC24201B0F1F1500AC2B45 /* AppDelegate.m in Sources */,
 				F0BFE4321ECAE521004CC309 /* TableViewController.m in Sources */,
 				C6EC241D1B0F1F1500AC2B45 /* main.m in Sources */,

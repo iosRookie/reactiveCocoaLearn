@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.dataArray = @[@"RACSignal", @"", @"", @""];
+    self.dataArray = @[@"RACSignal", @"RACSubject", @"RACTuple和RACSequence", @"RACMulticastConnection", @"RACCommand", @"ReactiveCocoaMacro"];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -62,7 +62,7 @@
     NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
     DetailViewController *liveVC = (DetailViewController *)segue.destinationViewController;
     liveVC.navTitle = [self.dataArray objectAtIndex:indexPath.row];
-    NSLog(@"%@",indexPath);
+//    NSLog(@"%@",indexPath);
 }
 
 //- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
