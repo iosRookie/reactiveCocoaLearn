@@ -103,6 +103,54 @@
                                     <outlet property="clearBut" destination="ttb-QB-Frk" id="jom-YL-ov0"/>
                                 </connections>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="paa-qd-8T3">
+                                <rect key="frame" x="16" y="318" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="concat"/>
+                                <connections>
+                                    <action selector="concat:" destination="WRA-IN-3CX" eventType="touchUpInside" id="vcy-XZ-Z88"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jd8-Eo-iXz">
+                                <rect key="frame" x="91" y="318" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="then"/>
+                                <connections>
+                                    <action selector="then:" destination="WRA-IN-3CX" eventType="touchUpInside" id="QP5-Y0-GmF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wa6-7M-Whi">
+                                <rect key="frame" x="164" y="318" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="merge"/>
+                                <connections>
+                                    <action selector="merge:" destination="WRA-IN-3CX" eventType="touchUpInside" id="85A-GY-ZU2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIv-vF-n9L">
+                                <rect key="frame" x="241" y="318" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="zip"/>
+                                <connections>
+                                    <action selector="zip:" destination="WRA-IN-3CX" eventType="touchUpInside" id="4ij-fG-KOp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nyI-Q1-X0F">
+                                <rect key="frame" x="313" y="318" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="combine"/>
+                                <connections>
+                                    <action selector="combine:" destination="WRA-IN-3CX" eventType="touchUpInside" id="c9b-UE-1VD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eme-kX-gh4">
+                                <rect key="frame" x="16" y="356" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="reduce"/>
+                                <connections>
+                                    <action selector="reduce:" destination="WRA-IN-3CX" eventType="touchUpInside" id="Ise-Lt-hNM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -115,7 +163,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Cy-OK-JFB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-850.39999999999998" y="133.5832083958021"/>
+            <point key="canvasLocation" x="-1258.4000000000001" y="35.532233883058474"/>
         </scene>
     </scenes>
 </document>

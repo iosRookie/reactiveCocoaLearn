@@ -274,4 +274,139 @@
     }];
 }
 
+- (IBAction)concat:(id)sender {
+    //concat时只有前边signal调用sendCompleted后边的signal才能被激活
+    RACSignal *signal1 = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        [subscriber sendNext:@"1"];
+        [subscriber sendCompleted];
+        return [RACDisposable disposableWithBlock:^{
+            NSLog(@"signal1完成");
+        }];
+    }];
+    
+    RACSignal *signal2 = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        [subscriber sendNext:@"2"];
+        return [RACDisposable disposableWithBlock:^{
+            NSLog(@"signal2完成");
+        }];
+    }];
+    
+    RACSignal *concat = [signal1 concat:signal2];
+    
+    [concat subscribeNext:^(id x) {
+        NSLog(@"%@", x);
+    }];
+}
+
+- (IBAction)then:(id)sender {
+    // then:用于连接两个信号，当第一个信号完成，才会连接then返回的信号
+    // 内部使用concat实现
+    // 注意使用then，之前信号的值会被忽略掉.
+    // 底层实现：1、先过滤掉之前的信号发出的值。2.使用concat连接then返回的信号
+    [[[RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        [subscriber sendNext:@"1"];
+        [subscriber sendCompleted];
+        return nil;
+    }] then:^RACSignal *{
+            return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+                [subscriber sendNext:@"2"];
+                return nil;
+            }];
+    }] subscribeNext:^(id x) {
+        NSLog(@"%@", x);
+    }];
+}
+
+- (IBAction)merge:(id)sender {
+    // merge:把多个信号合并成一个信号
+    //创建多个信号
+    RACSignal *signalA = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        [subscriber sendNext:@1];
+        return nil;
+    }];
+    
+    RACSignal *signalB = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        [subscriber sendNext:@2];
+        return nil;
+    }];
+    
+    // 合并信号,任何一个信号发送数据，都能监听到.
+    RACSignal *mergeSignal = [signalA merge:signalB];
+    
+    [mergeSignal subscribeNext:^(id x) {
+        NSLog(@"%@",x); 
+        
+    }];
+}
+
+- (IBAction)zip:(id)sender {
+    //把两个信号压缩成一个信号，只有当两个信号同时发出信号内容时，并且把两个信号的内容合并成一个元组，才会触发压缩流的next事件。
+    RACSignal *signalA = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        [subscriber sendNext:@1];
+        return nil;
+    }];
+    
+    RACSignal *signalB = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        [subscriber sendNext:@2];
+        return nil;
+    }];
+    // 压缩信号A，信号B
+    RACSignal *zipSignal = [signalA zipWith:signalB];
+    
+    [zipSignal subscribeNext:^(id x) {
+        NSLog(@"%@",x); 
+    }];
+}
+
+- (IBAction)combine:(id)sender {
+    //将多个信号合并起来，并且拿到各个信号的最新的值,必须每个合并的signal至少都有过一次sendNext，才会触发合并的信号。
+    RACSignal *signalA = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        [subscriber sendNext:@1];
+        return nil;
+    }];
+    
+    RACSignal *signalB = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        [subscriber sendNext:@2];
+        return nil;
+    }];
+    
+    // 把两个信号组合成一个信号,跟zip一样，没什么区别
+    RACSignal *combineSignal = [signalA combineLatestWith:signalB];
+    
+    [combineSignal subscribeNext:^(id x) {
+        NSLog(@"%@",x);
+    }]; 
+    
+    // 底层实现： 
+    // 1.当组合信号被订阅，内部会自动订阅signalA，signalB,必须两个信号都发出内容，才会被触发。 
+    // 2.并且把两个信号组合成元组发出。
+}
+
+- (IBAction)reduce:(id)sender {
+    //聚合:用于信号发出的内容是元组，把信号发出元组的值聚合成一个值
+    RACSignal *signalA = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        [subscriber sendNext:@1];
+        return nil;
+    }];
+    
+    RACSignal *signalB = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        [subscriber sendNext:@2];
+        return nil;
+    }];
+    
+    // 聚合
+    // 常见的用法，（先组合在聚合）。combineLatest:(id<NSFastEnumeration>)signals reduce:(id (^)())reduceBlock
+    // reduce中的block简介:
+    // reduceblcok中的参数，有多少信号组合，reduceblcok就有多少参数，每个参数就是之前信号发出的内容
+    // reduceblcok的返回值：聚合信号之后的内容。
+    RACSignal *reduceSignal = [RACSignal combineLatest:@[signalA,signalB] reduce:^id(NSNumber *num1 ,NSNumber *num2){
+        return [NSString stringWithFormat:@"%@ %@",num1,num2];
+    }]; 
+    
+    [reduceSignal subscribeNext:^(id x) { 
+        
+        NSLog(@"%@",x); 
+    }];
+}
+
 @end
